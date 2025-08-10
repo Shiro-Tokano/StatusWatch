@@ -1,0 +1,63 @@
+﻿:root {
+    --sw-green: #22c55e; /* success */
+    --sw-red: #ef4444; /* incident */
+    --sw-amber: #f59e0b; /* warn */
+    --sw-gray: #6b7280; /* muted */
+}
+
+body {
+    font-feature-settings: "ss01" 1;
+}
+
+.table td, .table th {
+    vertical-align: middle;
+}
+
+/* карточки/панели */
+.card-slim {
+    border-radius: 14px;
+    box-shadow: 0 6px 20px rgba(0,0,0,.05);
+}
+
+/* бейджи состояния */
+.badge-up {
+    background: var(--sw-green) !important;
+}
+
+.badge-down {
+    background: var(--sw-red) !important;
+}
+
+.badge-na {
+    background: var(--sw-gray) !important;
+}
+
+/* статус‑страница */
+.status-legend {
+    gap: .5rem
+}
+
+.status-dot {
+    width: .6rem;
+    height: .6rem;
+    border-radius: 50%
+}
+
+.dot-up {
+    background: var(--sw-green)
+}
+
+.dot-down {
+    background: var(--sw-red)
+}
+
+.dot-na {
+    background: var(--sw-gray)
+}
+
+/* мелочи */
+code {
+    background: #f6f8fa;
+    padding: .1rem .35rem;
+    border-radius: 6px
+}
